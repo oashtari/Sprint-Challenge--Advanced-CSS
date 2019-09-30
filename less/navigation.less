@@ -6,6 +6,10 @@
     width: 1000px;
     background-color: @nav-bg;
     border: .test-border();
+    font: @nav-font;
+    border-bottom: @nav-border;
+    @media @phone {width: @phone-width};
+
     h2 {
         margin: 0px 0px 0px 35px;
     }
@@ -21,5 +25,4 @@
         border: .test-border();
     }
 }
-    // @media @tablet {width: @tablet-width; flex-direction: column; margin: 0 auto;};
-    // @media @mobile {width: @mobile-width; flex-direction: column; margin: 0 auto;};
+

@@ -6,23 +6,15 @@
     flex-wrap: @flex-wrap;
     justify-content: @justify-content;
     align-items: @align-items;
-    
 }
 
 .test-border(){
-    border: 5px solid red;
+    border: 5px solid blue;
 }
 
-.btn {
-    background-color: @btn-bg-color; /* Teal...? */
-    border: none;
-    color: white;
-    padding: 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 10px;
+.btn(@border, @font-color) {
+    border: @border;
+    color: @font-color;
     // @media @tablet {width: 90%; padding: 15px 60px;};
     // @media @mobile {width: 90%; padding: 15px 60px;};
     }
