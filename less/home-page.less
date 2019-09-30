@@ -15,7 +15,7 @@
   }
   .nav-image {
     border-radius: 5px;
-    @media @phone {width: @phone-width};
+    @media @phone {width: @phone-width; margin: 5px;};
   }
 
   .space-images {
@@ -30,7 +30,7 @@
       height: 100%;
     }
     .blast {
-      @media @phone {width: @phone-width};
+      @media @phone {width: @phone-width; margin: 10px;};
     }
     .sky {
       @media @phone {display: none;};
@@ -83,6 +83,7 @@
         display: inline-block;
         font-size: 16px;
         border-radius: 10px;
+        @media @phone {width: 100%;padding: 10px 100px;};
       }
       .btn:hover {
         background-color: @btn-bg-hover;
@@ -92,12 +93,13 @@
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      @media @phone {width: @phone-width};
+      @media @phone {width: @phone-width; margin: 10px;};
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+        @media @phone {width: 95%;};
       }
     }
   }
