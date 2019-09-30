@@ -8,11 +8,14 @@
     border: .test-border();
     font: @nav-font;
     border-bottom: @nav-border;
-    @media @phone {width: @phone-width};
+    @media @phone {width: 100%;};
 
     h2 {
-        margin: 0px 0px 0px 35px;
-        @media @phone {margin: 0;};
+        @media @phone {};
+    }
+    .nav-text-section {
+        border-radius: 5px;
+        @media @phone {width: 100%;};
     }
     .nav-a-links {
         margin: 10px 0px;
@@ -23,7 +26,8 @@
     }
 
     .nav-image {
-        border: .test-border();
+        border-radius: 5px;
+        @media @phone {width: 100%;};
     }
 }
 

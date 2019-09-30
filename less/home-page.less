@@ -14,8 +14,8 @@
   
   }
   .nav-image {
-    border-radius: 5px;
-    @media @phone {width: 100%;};
+    // border-radius: 5px;
+    // @media @phone {width: 100%;};
   }
 
   .space-images {
@@ -59,7 +59,11 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-    @media @phone {width: @phone-width; flex-direction: column-reverse; padding: 15px;};
+    @media @phone {width: 100%; 
+      flex-direction: column-reverse; 
+      padding: 15px;
+      margin: 0 auto;
+        };
 
     .walk-text {
       width: 50%;
@@ -83,7 +87,7 @@
         display: inline-block;
         font-size: 16px;
         border-radius: 10px;
-        @media @phone {width: 98%; padding: 10px;};
+        @media @phone {width: 100%; padding: 10px;};
       }
       .btn:hover {
         background-color: @btn-bg-hover;
