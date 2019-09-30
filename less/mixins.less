@@ -1,1 +1,28 @@
 // Mixins Here
+
+.display(@direction, @flex-wrap,@justify-content,@align-items) {
+    display: flex;
+    flex-direction: @direction;
+    flex-wrap: @flex-wrap;
+    justify-content: @justify-content;
+    align-items: @align-items;
+    
+}
+
+.test-border(){
+    border: 5px solid red;
+}
+
+.btn {
+    background-color: @btn-bg-color; /* Teal...? */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    // @media @tablet {width: 90%; padding: 15px 60px;};
+    // @media @mobile {width: 90%; padding: 15px 60px;};
+    }
