@@ -178,13 +178,17 @@ p {
     width: 100%;
   }
 }
-.nav .nav-text-section {
-  border-radius: 5px;
+.nav h2 {
+  margin-left: 30px;
 }
 @media (max-width: 500px) {
-  .nav .nav-text-section {
+  .nav h2 {
     width: 100%;
   }
+}
+.nav .nav-text-section {
+  align-content: center;
+  border-radius: 5px;
 }
 .nav .nav-a-links {
   margin: 10px 0px;
