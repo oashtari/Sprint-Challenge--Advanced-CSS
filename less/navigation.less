@@ -1,1 +1,37 @@
 // Navigation code here
+
+.nav {
+    margin: 0 auto;
+    .display(column, wrap, space-evenly, center);
+    width: 1000px;
+    background-color: @nav-bg;
+    border: .test-border();
+    font: @nav-font;
+    border-bottom: @nav-border;
+    @media @phone {width: 100%;};
+
+
+    h2 {
+        margin-left: 30px;
+        @media @phone {width: 100%;};
+    }
+    .nav-text-section {
+        align-content: center;
+        border-radius: 5px;
+        // @media @phone {width: 100%;};
+
+    }
+    .nav-a-links {
+        margin: 10px 0px;
+    }
+    .a {
+        margin: 10px;
+        font-size: 1.25rem;
+    }
+
+    .nav-image {
+        border-radius: 5px;
+        @media @phone {width: 100%;};
+    }
+}
+
